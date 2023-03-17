@@ -1,0 +1,42 @@
+:root {
+    --navbar-color: gray;
+    --footer-color: gray;
+}
+
+.navbar {
+    background-color: var(--navbar-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0 1em 0 1em;
+}
+
+.navbar li {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.footer { 
+    background-color: var(--footer-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0 1em 0 1em;
+}
+
+.home {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.schedule { 
+    padding: 0 1em 0 1em;
+    margin: 1em 0 1em 0;
+    border: 1px solid black;
+}
